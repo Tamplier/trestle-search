@@ -39,6 +39,8 @@ module Trestle
             SelectRenderer
           when :text, :string
             TextRenderer
+          when :datetime
+            DatetimeRenderer
           end
         end
       end
